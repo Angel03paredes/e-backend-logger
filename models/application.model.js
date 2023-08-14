@@ -4,7 +4,7 @@ const applicationSchema = new Schema({
     name:String
 },{
     versionKey:false,
-    timestamps:true
+    timestamps:{createdAt:"created_at",updatedAt:"updated_at"}
 });
 
 module.exports = model("Application",applicationSchema);
