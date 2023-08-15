@@ -1,6 +1,6 @@
 ### Instrucciones
 
-- Crear opcionalmnete un archivo .env en la base del proyecto con las siguientes claves: 
+- Crear opcionalmente un archivo .env en la base del proyecto con las siguientes claves: 
 MONGODB_URI = 
 SECRET_KEY = 
 
